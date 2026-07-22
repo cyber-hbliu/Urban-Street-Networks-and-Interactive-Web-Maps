@@ -425,25 +425,6 @@ const CLASSES=[{k:"trunk",n:2557,f:64},{k:"primary",n:9302,f:228},{k:"secondary"
 const SPEEDS=[{k:"25 mph",n:4666,f:72},{k:"30 mph",n:4827,f:118},{k:"35 mph",n:2196,f:46},
  {k:"40 mph",n:904,f:36},{k:"45 mph",n:577,f:12}];
 const TEFFT=[[24.1,10],[32.5,25],[40.6,50],[48.0,75],[54.6,90]];
-const TOPS={
- topcrash:{color:"#ffd862",mode:"crash",
-  label:"Top 15 segments by crash index (>=60 m). Name matches show same-named streets together.",
-  names:["West Ontario Street","Tudor Street","East Washington Lane","Island Avenue",
-   "Passyunk Avenue","Vine Street","Fox Street","North Broad Street","West Olney Avenue",
-   "Disston Street","City Avenue","Stenton Avenue","West Rittenhouse Street",
-   "Torresdale Avenue","Cottman Avenue"]},
- topksi:{color:"#00b3b3",mode:"ksi",
-  label:"Top 15 segments by KSI index (>=60 m). Name matches show same-named streets together.",
-  names:["Stenton Avenue","Island Avenue","West Norris Street","Aramingo Avenue",
-   "Monument Road","West Westmoreland Street","West Ontario Street","East Upsal Street",
-   "West Erie Avenue","Henry Avenue","West Lehigh Avenue","South 54th Street",
-   "North Broad Street","South 63rd Street","West Diamond Street"]},
- topfatal:{color:"#e04996",mode:"fatal",
-  label:"Top 15 segments by fatal index (>=60 m). Name matches show same-named streets together.",
-  names:["East Allegheny Avenue","East Erie Avenue","West Lehigh Avenue","Harbison Avenue",
-   "Aramingo Avenue","Roosevelt Boulevard","Tomlinson Road","North Broad Street",
-   "West Cheltenham Avenue","Cottman Avenue","Rennard Street","Kensington Avenue",
-   "Thornton Road","West Olney Avenue","North 2nd Street"]}};
 const STREET_PATTERNS={
  allegheny:{re:/east allegheny/i,fallback:/allegheny/i,color:"#e04996",label:"East Allegheny Avenue · 3 fatal / 20 crashes"},
  harbison:{re:/harbison/i,fallback:/harbison/i,color:"#e04996",label:"Harbison Avenue · 2 / 2 — City Avenue · 0 / 20",re2:/city avenue/i,color2:"#ffd862"},
