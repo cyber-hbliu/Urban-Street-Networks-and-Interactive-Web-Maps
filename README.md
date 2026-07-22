@@ -2,7 +2,7 @@
 
 An interactive, scroll-driven data story built with D3.js, presenting a street-network analysis of five years of [Philadelphia crash data (2020-2024)](https://data-phl.opendata.arcgis.com/datasets/21154a8f1894449f839d2288726e9837_0/explore). Every number on the site is taken directly from the accompanying paper and its verified analysis pipeline. Nothing is synthetic.
 
-**Live site.** `https://<username>.github.io/<repo>/`.
+**Live site.** `[https://<username>.github.io/<repo>/](https://cyber-hbliu.github.io/Urban-Street-Networks-and-Interactive-Web-Maps/)`.
 
 ## What the analysis found
 
